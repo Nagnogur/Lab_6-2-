@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Lab_6_2_
 {
-    class Program
+     class Service
     {
-        static void Main(string[] args)
-        {
+        double price;
 
+        public double Price
+        {
+            get { return price; }
+            set { price = value; }
         }
     }
 }

@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Lab_6_2_
 {
-    class Program
+    class SwimmingPool : Service
     {
-        static void Main(string[] args)
+        public SwimmingPool()
         {
-
+            Price = 100;
+            
         }
     }
 }

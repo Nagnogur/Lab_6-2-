@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Lab_6_2_
 {
-    class Program
+    class SportComplex
     {
-        static void Main(string[] args)
+        
+        public void MedicalExamination()
         {
-
+            Console.WriteLine("Healthy");
         }
     }
 }
