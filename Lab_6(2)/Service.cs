@@ -10,10 +10,21 @@ namespace Lab_6_2_
     {
         double price;
 
-        public double Price
+        int type;
+        public int Type
+        {
+            get { return type; }
+            set { type = value; }
+        }
+      /*  public double Price
         {
             get { return price; }
             set { price = value; }
+        }*/
+
+        public Service(int type)
+        {
+                this.type = type;
         }
     }
 }
